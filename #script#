@@ -1,0 +1,13 @@
+cd /home/fadel/Workspaces/alx-project-0x04-setup && mkdir -p alx-project-0x04 alx-project-0x05 alx-project-0x06
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04 && npm init -y
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04 && npm install next@latest react@latest react-dom@latest typescript @types/node @types/react @types/react-dom eslint eslint-config-next tailwindcss postcss autoprefixer
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04 && mkdir -p pages components/layouts components/common styles
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04 && npx tailwindcss init -p
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04 && npm install
+cp -r /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x04/* /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x05/
+mkdir -p /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x05/context
+cp -r /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x05/* /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x06/
+cd /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x06 && npm install redux react-redux @reduxjs/toolkit @types/react-redux
+mkdir -p /home/fadel/Workspaces/alx-project-0x04-setup/alx-project-0x06/store
+chmod +x /home/fadel/Workspaces/alx-project-0x04-setup/verify-setup.sh
+cd /home/fadel/Workspaces/alx-project-0x04-setup && ./verify-setup.sh

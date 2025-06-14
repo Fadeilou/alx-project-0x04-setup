@@ -1,0 +1,15 @@
+{
+  "name": "alx-project-0x04-setup",
+  "version": "1.0.0",
+  "description": "React State Management Project Series - useState, Context API, and Redux implementations",
+  "scripts": {
+    "start:useState": "cd alx-project-0x04 && npm run dev",
+    "start:context": "cd alx-project-0x05 && npm run dev",
+    "start:redux": "cd alx-project-0x06 && npm run dev",
+    "install:all": "cd alx-project-0x04 && npm install && cd ../alx-project-0x05 && npm install && cd ../alx-project-0x06 && npm install",
+    "build:all": "cd alx-project-0x04 && npm run build && cd ../alx-project-0x05 && npm run build && cd ../alx-project-0x06 && npm run build"
+  },
+  "keywords": ["react", "nextjs", "typescript", "state-management", "context-api", "redux", "tutorial"],
+  "author": "ALX Student",
+  "license": "MIT"
+}
